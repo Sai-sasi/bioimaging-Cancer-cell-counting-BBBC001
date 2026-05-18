@@ -81,14 +81,13 @@ for fluorescence data.
 
 ### Statistical analysis
 
-Statistical validation was performed in Python (see `notebooks/Cancer-Cell-Analysis.ipynb`):
+Statistical validation was performed in [Python](`notebooks/Cancer-Cell-Analysis.ipynb`):
 
 - **Pearson r / R²** — strength of linear agreement between my counts and ground truth
 - **Paired t-test** — test for systematic bias between my method and ground truth
 - **Bland–Altman analysis** — gold standard method agreement test in biomedical imaging
 
-All statistics are computed directly from the CellProfiler output CSV
-(`results/MyExpt_Image.csv`) — no values are hardcoded.
+All statistics are computed directly from the [CellProfiler output CSV](`results/MyExpt_Image.csv`) — no values are hardcoded.
 
 ### Methods statement (for paper or report)
 
