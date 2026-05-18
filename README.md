@@ -7,9 +7,6 @@
 [![Dataset](https://img.shields.io/badge/Dataset-BBBC001v1-red)](https://bbbc.broadinstitute.org/BBBC001)
 
 ---
-[MyExpt_Image.csv](MyExpt_Image.csv)
-## Files
-
 ## Project overview
 
 This project applies an automated fluorescence microscopy cell counting pipeline
@@ -54,6 +51,7 @@ https://data.broadinstitute.org/bbbc/BBBC001/BBBC001_v1_counts.txt
 | Mean error | 7.1% | Within human variability (11%) |
 | Published benchmark | 6.2% | Carpenter et al., 2006 |
 
+[statistical_analysis](statistical_analysis.png)
 ![statistical_analysis]('statistical_analysis.png')
 
 ---
@@ -83,13 +81,14 @@ for fluorescence data.
 
 ### Statistical analysis
 
-Statistical validation was performed in [Python](`Cancer-Cell-Analysis.ipynb`):
+Statistical validation was performed in [Python](Cancer-Cell-Analysis.ipynb):
 
 - **Pearson r / R²** — strength of linear agreement between my counts and ground truth
 - **Paired t-test** — test for systematic bias between my method and ground truth
 - **Bland–Altman analysis** — gold standard method agreement test in biomedical imaging
 
-All statistics are computed directly from the [CellProfiler output CSV](`MyExpt_Image.csv`) — no values are hardcoded.
+All statistics are computed directly from the [CellProfiler output CSV]
+[MyExpt_Image.csv](MyExpt_Image.csv) — no values are hardcoded.
 
 ### Methods statement (for paper or report)
 
