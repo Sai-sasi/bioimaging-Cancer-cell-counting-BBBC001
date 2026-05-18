@@ -8,6 +8,13 @@
 
 ---
 
+## Files
+
+- [Open Jupyter Notebook](notebooks/Cancer-Cell-Analysis.ipynb)
+- [Download Nuclei Counts CSV](results/MyExp_Nuclei.csv)
+- [Download Image Measurements CSV](results/MyExpt_Image.csv)
+
+
 ## Project overview
 
 This project applies an automated fluorescence microscopy cell counting pipeline
@@ -104,23 +111,26 @@ All statistics are computed directly from the [CellProfiler output CSV](`results
 
 ## Repository contents
 
-```
+
+
+```text
 bioimaging-cell-counting-BBBC001/
 │
 ├── notebooks/
-│   └── cell_counting_analysis.ipynb   ← load CSV → statistics → figures
+│   └── Cancer-Cell-Analysis.ipynb
 │
 ├── pipeline/
-│   └── cell_counting.cppipe           ← CellProfiler pipeline (reproducible settings)
+│   └── cell_counting.cppipe
 │
 ├── results/
-│   ├── Image.csv                      ← CellProfiler output (Count_Nuclei per frame)
-│   ├── statistical_analysis.png       ← correlation, Bland-Altman, comparison figures
-│   ├── pipeline_figure.png            ← original → binary → detected cells overlay
-│   └── summary_statistics.png        ← per-frame bar charts
+│   ├── MyExp_Nuclei.csv
+│   ├── MyExpt_Image.csv
+│   ├── statistical_analysis.png
+│   ├── pipeline_figure.png
+│   └── summary_statistics.png
 │
-├── README.md                          ← this file
-├── LICENSE                            ← MIT (covers my code and pipeline only)
+├── README.md
+├── LICENSE
 └── .gitignore
 ```
 
@@ -248,9 +258,8 @@ and conclusions presented.
 ## Contact
 
 **Sai Sasi Sekhar Kongala**
-saisasisekhark@gmail.com
-<img width="2208" height="1661" alt="statistical_analysis" src="https://github.com/user-attachments/assets/3c6ddfa8-f245-46b4-8ad2-9cfcb2f79088" />
-[LinkedIn](https://www.linkedin.com/in/saisasisekhark/)
+📧 saisasisekhark@gmail.com
+🔗[LinkedIn](https://www.linkedin.com/in/saisasisekhark/)
 
 *Developed as part of independent study in computational bioimaging,
 in preparation for postgraduate research in neurodata science.*
