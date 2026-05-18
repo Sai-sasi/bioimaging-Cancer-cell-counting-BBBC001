@@ -51,8 +51,8 @@ https://data.broadinstitute.org/bbbc/BBBC001/BBBC001_v1_counts.txt
 | Mean error | 7.1% | Within human variability (11%) |
 | Published benchmark | 6.2% | Carpenter et al., 2006 |
 
-[statistical_analysis](statistical_analysis.png)
-![statistical_analysis]('statistical_analysis.png')
+![statistical_analysis](statistical_analysis.png)
+
 
 ---
 
