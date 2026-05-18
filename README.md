@@ -52,7 +52,7 @@ https://data.broadinstitute.org/bbbc/BBBC001/BBBC001_v1_counts.txt
 | Mean error | 7.1% | Within human variability (11%) |
 | Published benchmark | 6.2% | Carpenter et al., 2006 |
 
-![Statistical Analysis](results/statistical_analysis.png)
+!<img width="2208" height="1661" alt="statistical_analysis" src="https://github.com/user-attachments/assets/e986ad72-5369-44fb-8513-66afdb6e2d0c" />(results/statistical_analysis.png)
 
 ---
 
@@ -249,6 +249,7 @@ and conclusions presented.
 
 **Sai Sasi Sekhar Kongala**
 saisasisekhark@gmail.com
+<img width="2208" height="1661" alt="statistical_analysis" src="https://github.com/user-attachments/assets/3c6ddfa8-f245-46b4-8ad2-9cfcb2f79088" />
 [LinkedIn](https://www.linkedin.com/in/saisasisekhark/)
 
 *Developed as part of independent study in computational bioimaging,
